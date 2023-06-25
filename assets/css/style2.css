@@ -1,0 +1,351 @@
+.hero-wrap {
+    position: relative;
+    background-image: url("./../images/bg_1.jpg");
+    height: 500px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    background: rgba(0,0,0,0.4);
+}
+
+.headline {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.headline span{
+    color: #d24f4f;
+}
+
+.section-form{
+    margin-top: 50px;
+}
+
+.search-form{
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.textfield-search{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.label{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #5A5A5A;
+    margin-bottom: 2px;
+}
+.label p{
+    font-size: 14px;
+}
+
+.input-field{
+    color: #5A5A5A;
+}
+.input-field input, .input-field select{
+    display: block;
+    border: none;
+    border-radius: 5px ;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.textfield-search p{
+    color: #5A5A5A;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+
+.form-control{
+    color: #5A5A5A !important;
+}
+
+.select-wrap{
+    margin-top: 5px;
+}
+
+.cta-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.about-section{
+    margin-top: 200px;
+    padding-top: 50px;
+}
+.about-section img{
+    margin-top: 150px;
+}
+
+.search-submit{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* kategori wisata */
+.alam-hero-wrap{
+    position: relative;
+    background-image: url("https://tourism.surabaya.go.id/storage/tour/1677034096_1.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: top;
+}
+.keluarga-hero-wrap{
+    position: relative;
+    background-image: url("https://tourism.surabaya.go.id/storage/tour/1677043522_1.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.religi-hero-wrap{
+    position: relative;
+    background-image: url("./../images/religi/bg-religi.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.sejarah-hero-wrap{
+    position: relative;
+    background-image: url("./../images/sejarah/bg-sejarah.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.kategori-overlay {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 350px;
+    background: rgba(0,0,0,0.4);
+}
+
+.breadcrumb-section{
+    margin-top: 20px;
+    color: white;
+}
+.breadcrumb-section a{
+    font-weight: 700;
+    color: white;
+}
+
+.headline-wisata{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+    margin-top: 70px;
+    text-align: left;
+    position: relative;
+    z-index: 999;
+}
+
+.slider-section{
+    margin-top: 20px;
+}
+
+.card-wisata{
+}
+
+.wisata-section{
+    z-index: 999;
+}
+.wisata-section, .slider-section{
+    overflow-x: hidden;
+    padding-bottom: 40px;
+}
+.destination .text .bottom-area span:last-child a{
+    color: #d24f4f;
+}
+
+/* informasi */
+.headline-news{
+    font-size: 26px;
+    font-weight: 700;
+    color: #060606;
+    margin-top: 40px;
+}
+
+.item-informasi{
+    border:1px solid #EAEAEA;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.item-informasi .card-box .card-title{
+    margin: 0;
+}
+.item-informasi .card-box .card-body{
+    padding: 0px;
+}
+
+.card-box{
+    padding: 16px;
+}
+.card-box img{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    padding-bottom: 16px;
+}
+
+.published-at{
+    font-size: 14px;
+    color: grey
+}
+
+/* rute */
+.rute-hero-wrap{
+    position: relative;
+    background-image: url("./../images/sejarah/bg-sejarah.jpg");
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+.rute-section{
+    overflow-x: hidden;
+}
+
+.rute-form .select-wrap .input-field{
+    display: block;
+    border: none;
+    border-radius: 5px ;
+    width: 100%;
+    font-size: 14px;
+}
+.rute-form .select-wrap .input-field select{
+    display: block;
+    border: none;
+    border-radius: 5px ;
+    width: 100%;
+    font-size: 14px;
+}
+.rute-form .select-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rute-form .select-wrap .form-control{
+    margin-bottom: 0 !important;
+}
+.rute-form .search-submit{
+    margin-left: 10px;
+    display: flex;
+    padding: 2px 4px;
+    width: 100px;
+}
+
+/* detail-wisata */
+.headline-detail{
+    font-size: 26px;
+    font-weight: 700;
+    color: #060606;
+    margin-top: 40px;
+}
+
+.address{
+    margin-bottom: 0;
+}
+
+#carouselExampleIndicators{
+    height: 500px;
+}
+#carouselExampleIndicators .carousel-inner{
+    height: 500px;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#carouselExampleIndicators .carousel-control-prev, #carouselExampleIndicators .carousel-control-next{
+    background: transparent;
+    border: none;
+}
+#ftco-navbar .navbar-nav > .nav-item > p{
+    cursor:pointer;
+}
+
+@media screen and (min-width: 768px){
+    .hero-wrap{
+        height: 600px;
+    }
+    .overlay{
+        height: 600px;
+    }
+    .section-form{
+        margin-top: -3px;
+    }
+    .about-section img{
+        margin-top: 0;
+    }
+    .about-section{
+        margin-top: 100px;
+    }
+    .card-wisata{
+        margin-right: 15px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .fields-form{
+        display: flex;
+        justify-content: center;
+    }
+    .select-wrap{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #button-submit{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .headline{
+        font-size: 48px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .hero-wrap{
+        height: 100vh;
+    }
+    .overlay{
+        height: 100vh;
+    }
+    .breadcrumb-section{
+        margin-top: 100px;
+    }
+    .headline-news{
+        margin-top: 120px;
+    }
+    .card-box{
+        padding: 24px;
+    }
+    .description{
+        margin-top: 40px;
+    }
+
+}
